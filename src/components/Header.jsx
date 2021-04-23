@@ -16,18 +16,21 @@ export default function Header() {
     <div
       className="min-h-screen flex items-center justify-center"
       style={{
-        background: '#091c29',
+        background: '#f0f0f0',
+        //#091c29
       }}
     >
-      <div className="w-10/12 mx-auto flex flex-col md:flex-row-reverse items-center justify-between">
+      <div className="w-10/12 mx-auto flex flex-col md:flex-row-reverse items-center justify-around">
         <div className="w-full md:w-2/5">
           <LazyLoadImage
             src={content.header.img}
             effect="blur"
-            placeholderSrc={process.env.PUBLIC_URL + '/logo512.png'}
+            placeholderSrc={process.env.PUBLIC_URL + '/logo512.png'
+            
+          }
           />
         </div>
-        <div className="text-white font-dosis text-center md:text-left">
+        <div className="text-black font-k2d text-center md:text-left">
           <h2
             className={`${
               animated ? '' : 'translate-y-10 opacity-0'
@@ -40,7 +43,7 @@ export default function Header() {
           <h1
             className={`${
               animated ? '' : 'translate-y-10 opacity-0'
-            }  transform transition duration-2000 ease-in-out font-bold text-2xl text-gray-500`}
+            }  transform transition duration-2000 ease-in-out font-bold text-2xl text-black`}
           >
             {content.header.text[2]}{' '}
             <Typical

@@ -12,7 +12,7 @@ export default {
       typical: [
         'web developer. 🖥',
         2021,
-        'amoureux des plantes 🌳',
+        'amoureux des 🌳',
         1992,
       ],
       btnText: 'Découvrir plus',

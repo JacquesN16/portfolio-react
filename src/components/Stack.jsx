@@ -5,7 +5,7 @@ import content from '../content';
 export default function Stack() {
   return (
     <div
-      className="min-h-screen flex flex-col items-center justify-center font-dosis"
+      className="min-h-screen flex flex-col items-center justify-center font-k2d"
       id="stack"
     >
       <h1 className="text-5xl font-bold">Mon Stack</h1>

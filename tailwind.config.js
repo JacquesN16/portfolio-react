@@ -290,6 +290,7 @@ module.exports = {
         'monospace',
       ],
       dosis: ['Dosis'],
+      k2d:['k2d'],
     },
     fontSize: {
       xs: '0.75rem',
