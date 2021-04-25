@@ -1,5 +1,6 @@
 import React from 'react';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
+import { Link as ScrollLink } from 'react-scroll';
 import content from '../content';
 
 export default function Stack() {
@@ -22,9 +23,14 @@ export default function Stack() {
           );
         })}
       </div>
-      <p className="w-11/12 md:max-w-xl text-xl text-center mt-10">
-        {content.stack.desc}
-      </p>
+      <ScrollLink to="contact" smooth={true}>
+        <p className="w-11/12 md:max-w-xl text-xl text-center mt-10">
+          <a href="#contact">
+            {content.stack.desc}
+          </a>
+        </p>
+      </ScrollLink>
+     
     </div>
   );
 }

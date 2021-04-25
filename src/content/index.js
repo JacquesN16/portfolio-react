@@ -37,13 +37,14 @@ export default {
           alt: 'javascript',
         },
       ],
-      desc: `Développeur full stack , j’ai appris à coder dans divers langages informatiques. Je peux  participer  aux différentes étapes techniques de la création d’un site ou d’une application web ; de la compréhension des besoins utilisateurs, au développement frontend et backend.
+      desc: `Développeur full stack , j’ai appris à coder dans divers langages informatiques. Je peux  participer  aux différentes étapes techniques de la création d’un site ou d’une application web. Rêves d'une nouvelle aventure, je suis ouverte d'esprit et courageaux. 
+      Besoin d'un coup de main pour votre projet ? alors contactez-moi !😁 
       `,
     },
     contact: {
       mail:'j.nguyen@gmail.com',
       title: 'contact',
-      content: 'N\'hésitez pas à me contacter',
+      content: 'N\'hésitez pas à me contacter, pour des questions, des discussions où une rencontre 📫💼🏸 ',
       networks:[
               {
                link: "https://www.linkedin.com/in/jacques-nguyen-14611117a/",

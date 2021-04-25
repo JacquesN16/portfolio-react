@@ -21,11 +21,11 @@ export default function Contact(){
                       }}
             >
                 <ScrollAnimation animateIn="fadeIn animate__delay-2s" animateOut>
-                    <h2 className="text-5xl md:text-7xl font-bold ">
+                    <h2 className="text-3xl md:text-7xl font-bold m-2 p-5 text-center">
                     {content.contact.content}
                     </h2>
                 </ScrollAnimation>
-                <div className="w-6/12 md:w-3/5 flex  flex-col md:flex-row justify-between">
+                <div className="w-6/12 md:w-3/5 flex  flex-col md:flex-row justify-between m-2">
                 {content.contact.networks.map((network) => {
                     return (
                     <a href={network.link}
@@ -35,8 +35,7 @@ export default function Contact(){
                 );   
                 })}
                 </div>
-            </div>
-           
+            </div>        
         </div>
     );
 }
