@@ -3,7 +3,7 @@ export default {
       logo: 'JN',
       links: [
         { text: 'Projets', to: 'mywork' },
-        { text: 'Contact', to: 'mycontact'},
+        { text: 'Contactez-moi !', to: 'contact'},
       ],
     },
     header: {
@@ -17,7 +17,6 @@ export default {
       ],
       btnText: 'Découvrir plus',
     },
-  
     stack: {
       title: 'Stack',
       tech: [
@@ -40,5 +39,28 @@ export default {
       ],
       desc: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci laudantium fugiat commodi quis incidunt inventore, rem porro minima molestiae blanditiis sit ea doloribus vitae molestias error sapiente temporibus expedita deserunt.
       `,
+    },
+    contact: {
+      mail:'j.nguyen@gmail.com',
+      title: 'contact',
+      content: 'N\'hésitez pas à me contacter',
+      networks:[
+              {
+               link: "https://www.linkedin.com/in/jacques-nguyen-14611117a/",
+               img: process.env.PUBLIC_URL + '/assets/LinkedIn.png',
+               alt: 'linkedin',
+               },
+              {
+               link : "https://github.com/JacquesN16" ,
+               img: process.env.PUBLIC_URL + '/assets/GitHub.png',
+               alt: 'github',
+               },
+              {
+               link :"mailto:j.nguyen14216@gmail.com" ,
+               img: process.env.PUBLIC_URL + '/assets/Email.png',
+               alt: 'email',
+               },
+       ]
+      
     },
   };
