@@ -37,7 +37,7 @@ export default {
           alt: 'javascript',
         },
       ],
-      desc: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci laudantium fugiat commodi quis incidunt inventore, rem porro minima molestiae blanditiis sit ea doloribus vitae molestias error sapiente temporibus expedita deserunt.
+      desc: `Développeur full stack , j’ai appris à coder dans divers langages informatiques. Je peux  participer  aux différentes étapes techniques de la création d’un site ou d’une application web ; de la compréhension des besoins utilisateurs, au développement frontend et backend.
       `,
     },
     contact: {
