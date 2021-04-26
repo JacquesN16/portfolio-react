@@ -37,7 +37,7 @@ export default {
           alt: 'javascript',
         },
       ],
-      desc: `Développeur full stack , j’ai appris à coder dans divers langages informatiques. Je peux  participer  aux différentes étapes techniques de la création d’un site ou d’une application web.Je suis ouverte d'esprit, courageux et je suis prêt pour une nouvelle aventure. 
+      desc: `Développeur full stack , j’ai appris à coder dans divers langages informatiques. Je peux  participer  aux différentes étapes techniques de la création d’un site ou d’une application web. Je suis ouverte d'esprit, courageux et je suis prêt pour une nouvelle aventure. 
       Besoin d'un coup de main pour votre projet ? alors contactez-moi !😁 
       `,
     },
